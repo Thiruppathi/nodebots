@@ -11,6 +11,8 @@ In this talk, I will guide through assembling and programming few projects using
 The ultimate combination of Arduino, Johnny-Five, node.js & few other hardware lets you create amazing things. Come tinker with hardware and few lines of JavaScript code to make things light up.
 
 
-Get an Arduino Starter Kit, if you like to hack after the talk; This kit contains an Arduino, Breadboard, Selection of LEDs, Sensors, Motors, etc.,
+Get an Arduino Starter Kit, if you like to hack after the talk;
 
 Suitable Kits can be found at [oomlout](http://oomlout.co.uk/collections/arduino/products/arduino-starter-kit-ardx) and [Proto-Pic](http://proto-pic.co.uk/proto-pic-arduino-starter-kit-for-arduino-uno/).
+
+These kits contain an Arduino, Breadboard, Selection of LEDs, Sensors, Motors, etc.,
