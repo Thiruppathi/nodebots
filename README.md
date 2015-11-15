@@ -81,6 +81,7 @@ Get an Arduino Starter Kit, if you like to hack after the talk or use it for nex
 
 
 To Do:
+- Create Circuit Diagram for Demos
 - Emulator option
 - Slide Preparation
 - Basics of electronics
