@@ -13,6 +13,7 @@ The ultimate combination of Arduino, Johnny-Five, node.js & few other hardware l
 Get an Arduino Starter Kit, if you like to hack after the talk or use it for next month Dev Challenge; Suitable Kits can be found at [oomlout](http://oomlout.co.uk/collections/arduino/products/arduino-starter-kit-ardx) and [Proto-Pic](http://proto-pic.co.uk/proto-pic-arduino-starter-kit-for-arduino-uno/). These kits contain an Arduino, Breadboard, Selection of LEDs, Sensors, Motors, etc.,
 
 ## Slide Deck
+[SlideDeck](http://slides.com/thiru/nodebots#/)
 
 - Node Bots - Title Deck
 - About Me
