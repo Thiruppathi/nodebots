@@ -1,5 +1,6 @@
 var arDrone = require('ar-drone');
 var http    = require('http');
+var fs = require('fs');
 
 console.log('Connecting png stream ...');
 
@@ -10,6 +11,17 @@ pngStream
   .on('error', console.log)
   .on('data', function(pngBuffer) {
     lastPng = pngBuffer;
+    var now = (new Date()).getTime();
+    if (now - lastFrameTime > period) {
+      frameCounter++;
+      lastFrameTime = now;
+      console.log('Saving frame');
+      fs.writeFile('frame' + frameCounter + '.png', pngBuffer, function(err) {
+        if (err) {
+          console.log('Error saving PNG: ' + err);
+        }
+      });
+    }
   });
 
 var server = http.createServer(function(req, res) {
