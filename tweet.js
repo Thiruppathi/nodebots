@@ -1,21 +1,17 @@
 var Twitter = require('twitter');
+var envKeys = require('./envKeys').envKeys;
 
-var client = new Twitter({
-  consumer_key: '',
-  consumer_secret: '',
-  access_token_key: '',
-  access_token_secret: ''
-});
+var client = new Twitter(envKeys);
 
+/*
 client.post('statuses/update', {status: 'DroneSelfie @thiruppathi #nodeBots #nodcopter'}, function(error, tweet, response){
   if (!error) {
     console.log(tweet);
   }
-});
-
+});*/
 
 // Load your image
-var data = require('fs').readFileSync('frame.png');
+var data = require('fs').readFileSync('frame1.png');
 
 // Make post request on media endpoint. Pass file data as media parameter
 client.post('media/upload', {media: data}, function(error, media, response){
@@ -37,5 +33,7 @@ client.post('media/upload', {media: data}, function(error, media, response){
       }
     });
 
+  } else {
+    console.log('Sorry. Could not post');
   }
 });
