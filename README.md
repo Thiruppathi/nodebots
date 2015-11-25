@@ -15,6 +15,13 @@ Get an Arduino Starter Kit, if you like to hack after the talk or use it for nex
 ## Slide Deck
 [SlideDeck](http://slides.com/thiru/nodebots#/)
 
+## Slide Helpers
+http://loopthetube.com#VgSMxY6asoE&start=7.945&end=48.044999999999995
+
+Eye of the tiger instrumental
+https://www.youtube.com/watch?v=ILiZmCCPsRk
+
+
 - Node Bots - Title Deck
 - About Me
   - Elephant Proto-Pic
