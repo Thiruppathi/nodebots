@@ -5,6 +5,9 @@ var fs = require('fs');
 console.log('Connecting png stream ...');
 
 var pngStream = arDrone.createClient().getPngStream();
+var lastFrameTime = 0;
+var frameCounter = 0;
+var period = 0;
 
 var lastPng;
 pngStream

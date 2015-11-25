@@ -11,7 +11,7 @@ client.post('statuses/update', {status: 'DroneSelfie @thiruppathi #nodeBots #nod
 });*/
 
 // Load your image
-var data = require('fs').readFileSync('frame1.png');
+var data = require('fs').readFileSync('frame2.png');
 
 // Make post request on media endpoint. Pass file data as media parameter
 client.post('media/upload', {media: data}, function(error, media, response){
@@ -23,7 +23,7 @@ client.post('media/upload', {media: data}, function(error, media, response){
 
     // Lets tweet it
     var status = {
-      status: 'Test DroneSelfie @thiruppathi #nodeBots #nodcopter',
+      status: 'DroneSelfie @thiruppathi @LeedsJS #nodeBots #nodcopter',
       media_ids: media.media_id_string // Pass the media id string
     }
 

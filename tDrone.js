@@ -2,7 +2,13 @@ var arDrone = require('ar-drone');
 var tDrone = arDrone.createClient();
 
 tDrone.createRepl();
-
+// tDrone.takeoff();
+//
+// tDrone
+//   .after(3000, function() {
+//     this.stop();
+//     this.land();
+//   });
 
 /*
 tDrone.takeoff();
@@ -37,4 +43,7 @@ stop()
 animate('flipLeft', 15)
 
 animate('flipAhead', 15)
+
+
+
 */
